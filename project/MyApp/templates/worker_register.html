@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>员工注册界面</title>
+	<!-- Meta-Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="../static/css/style4.css" rel='stylesheet' type='text/css' />
+    <style>
+        body{
+            background:linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+            background-size: 100%;
+        }
+    </style>
+</head>
+
+<body >
+{% if status == 0 %}
+    <p class="p_one">{{ info }}</p>
+{% elif status == 5 %}
+ <p class="p_one">{{ info }}</p>
+
+{% endif %}
+<div style="position:relative;left: 32px; width: 1397px;">
+	<h1 style="    position: relative;
+    top: -24px;">员&nbsp;工&nbsp;注&nbsp;册</h1>
+	<div class="w3ls-login box"style="position: relative;
+    top: -95px">
+		<form action="/worker_register/"method="post"style="position: relative;
+    top: 18px;">
+                    {% csrf_token %}
+            <div class="agile-field-txt">
+				<input type="text" name="worker_telephone" placeholder="手机号" required />
+			</div>
+            <div class="agile-field-txt">
+				<input type="text" name="worker_id" placeholder="工号" id="myInput" required/>
+			</div>
+            <div class="agile-field-txt">
+				<input type="text" name="worker_name" placeholder="姓名" required />
+			</div>
+
+			<div class="agile-field-txt">
+				<select name="worker_sex"required>
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </div>
+			<div class="agile-field-txt">
+				<input type="text" name="worker_age" placeholder="年龄" id="myInput" required/>
+			</div>
+
+             <div class="agile-field-txt">
+				<select name="worker_type">
+                    {% for type in types %}
+                        <option value="{{type.type_id}}">{{type.type_name}}</option>
+                    {% endfor %}
+                </select>
+			</div>
+            <div class="agile-field-txt">
+				<input type="text" name="worker_idcard" placeholder="身份证号" id="myInput" required/>
+			</div>
+            <div class="agile-field-txt">
+				<input type="password" name="worker_password" placeholder="密码" id="myInput" required/>
+			</div>
+            <div class="w3ls-bot">
+				<input type="submit"value="确认信息无误,完成注册"formaction="/worker_register/"formmethod="post"style="background: #07db83;" >
+			</div>
+
+		</form>
+	</div>
+    </div>
+</body>
+
+</html>

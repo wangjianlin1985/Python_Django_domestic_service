@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+	<title>登录界面</title>
+	<!-- Meta-Tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="">
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="../static/css/styles/style.css" rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+{% if status == 2 %}
+    <p class="p_one"> {{ info }} </p>
+
+{% elif status == 3 %}
+    <p class="p_one"> {{ info }} </p>
+{% endif %}
+<div style="position:relative;left: 60px; width: 1397px;">
+	<h1>家&nbsp;政&nbsp;管&nbsp;理&nbsp;系&nbsp;统</h1>
+
+	<div class="w3ls-login box"style="position: relative;
+    right: 115px;top: -35px">
+		<img src="../static/images/logo.png" alt="logo_img" />
+		<!-- form starts here -->
+		<form action="/login_judge/"method="post">
+                    {% csrf_token %}
+			<div class="agile-field-txt">
+				<input type="text" name="telephone" placeholder="填写您的手机号"  />
+			</div>
+			<div class="agile-field-txt">
+				<input type="password" name="password" placeholder="填写您正确的密码" id="myInput" />
+
+			</div>
+			<div class="w3ls-bot">
+				<input type="submit" value="点击登录">
+			</div>
+            <div class="agile_label">
+                <input type="submit"class="check" value="您是员工的话,点击注册"formaction="/worker_register/"formmethod="get" style="background: #21c9d1fa;
+    position: relative;
+    width: 166px;
+    border-radius: 7px;
+    top: 37px;
+    right: 42px;">
+                <input type="submit"class="check" value="您是客户的话,点击注册"formaction="/customer_register/"formmethod="get" style="background: #21c9d1fa;
+    position: relative;
+    width: 166px;
+    left: 100px;
+    top: 39px;
+    border-radius: 8px;">
+            </div>
+
+		</form>
+	</div>
+    </div>
+</body>
+
+</html>

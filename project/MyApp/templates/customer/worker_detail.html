@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>家政人员详情界面</title>
+        <link type="text/css" rel="stylesheet" media="all" href="../../static/css/styles/global.css" />
+        <link type="text/css" rel="stylesheet" media="all" href="../../static/css/styles/global_color.css" />
+        <style type="text/css">
+            .font3 {
+    color: white;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+position: relative;
+    right: 790px;
+    top: 8px;
+    font-size: 33px;
+    letter-spacing: 5px;
+            }
+            .font1{
+    color: white;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+position: relative;
+    right: 790px;
+    top: 8px;
+    font-size: 20px;
+    letter-spacing: 1px;
+            }
+              .font2{
+    color: white;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+            }
+            .font4{
+    color: #9cff04;
+    letter-spacing: 0;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+position: relative;
+    font-size: 20px;
+    letter-spacing: 1px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!--Logo区域开始-->
+        <div id="header">
+            <h1 class="font3">欢迎来到家政管理系统</h1>
+            <div><img src="../../static/images/user.png" style="position: relative;
+    top: -42px;"/></div>
+            <div class="font2" style="    position: relative;
+    left: 85px;
+    top: -76px;
+    font-size: 20px;">客户：</div>
+            <div class="font4" style=" position: fixed;
+    right: 92px;
+    top: 15px;
+    font-size: 25px;">{{ name }}</div>
+        </div>
+        <!--时间-->
+        <section class="publicTime">
+    <div><img src="../../static/images/time.png"style="position: relative;
+    float: right;
+    width: 25px;
+    top: 2px;
+    right: 435px;"/></div>
+    <span class="font1" id="time"style="position: relative;
+    left: 1031px;
+    top: -3px;"></span>
+
+</section>
+        <!--Logo区域结束-->
+        <!--导航区域开始-->
+        <div id="navi">
+            <ul id="menu">
+                 <li><a href="/worker_information?" style="background: url(../../static/images/8.jpg) no-repeat;"></a></li>
+                <li><a href="/worker_appoint?"style="background: url(../../static/images/1.jpg) no-repeat;"></a></li>
+                <li><a href="/appoint_record?" style="background: url(../../static/images/3.jpg) no-repeat;"></a></li>
+                <li><a href="/change_worker_password?" style="background: url(../../static/images/9.png) no-repeat;"></a></li>
+                <li><a href="/login?" style="background: url(../../static/images/9.jpg) no-repeat;"></a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <form action="/worker_detail/"method="post">
+                    {% csrf_token %}
+            <div style="    position: relative;
+    top: 19px;">
+                <div class="text_info clearfix"><span>姓名：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_name }}"readonly /></div>
+                <div class="text_info clearfix"><span>性别：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_sex }}"readonly /></div>
+                <div class="text_info clearfix"><span>年龄：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_age }}" name="worker_age" readonly/></div>
+                <div class="text_info clearfix"><span>家庭住址：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_address }}"name="worker_address" readonly /></div>
+            </div>
+            <div style="position: relative;
+    left: 359px;
+    top: -178px;">
+                <div class="text_info clearfix"><span>身份证号：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_idcard }}"readonly /></div>
+                <div class="text_info clearfix"><span>工作经验：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_experience }}" name="worker_age"readonly /></div>
+                <div class="text_info clearfix"><span>工资：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_salary }}"name="worker_address"  readonly/></div>
+                 <div class="text_info clearfix"><span>联系电话：</span></div>
+                <div class="input_info">
+                    <input type="text" value="{{ worker_telephone }}"name="worker_address"  readonly/></div>
+                </div>
+                 <div style="    position: relative;
+    top: -176px;
+    left: 99px;">
+                <div class="text_info clearfix">
+                    <span >个人简介：</span>
+                </div>
+                <div class="input_info">
+                    <textarea name="worker_information"style="    width: 307px;
+    height: 111px;
+    font-size: 21px;
+    font-family: 楷体;"readonly>{{ worker_information }}</textarea>
+                </div>
+                </div>
+                <div class="button_info clearfix">
+                    <input type="submit" value="返回" class="btn_save"formaction="/customer_appoint/" fomrmethod="get" style="position: relative;
+    right: -30px;
+    top: -64px;"/>
+                </div>
+                <div class="button_info clearfix">
+                    <input type="submit" value="确认聘用" class="btn_save" onclick="alert('聘请成功！')" style="    position: relative;
+    right: -243px;
+    top: -100px;"/>
+                </div>
+            </form>
+        </div>
+            </div>
+    <script src="../../static/js/jquery.js"></script>
+<script src="../../static/js/js.js"></script>
+<script src="../../static/js/time.js"></script>
+    </body>
+</html>

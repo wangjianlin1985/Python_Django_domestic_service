@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b2478e1-849b-4788-a637-27b01dcddee9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/project$test.coverage" NAME="test Coverage Results" MODIFIED="1587198285266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/project$manage.coverage" NAME="manage Coverage Results" MODIFIED="1595345569440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="household@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="household@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="household@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="household: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="household@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="household: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="myapp_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sch</find>
+      <find>create</find>
+      <find>Book</find>
+      <find>ISBN</find>
+      <find>manage_medicine</find>
+      <find>alter_medicine</find>
+      <find>book</find>
+      <find>骨科</find>
+      <find>datetime</find>
+      <find>list</find>
+      <find>doctor_appoint</find>
+      <find>请选择</find>
+      <find>appoint_me</find>
+      <find>==0</find>
+      <find>medicine_manage</find>
+      <find>img/</find>
+      <find>cost_detail</find>
+      <find>exam</find>
+      <find>dept</find>
+      <find>Foreign</find>
+      <find>diagnosis_detail</find>
+      <find>Doctor</find>
+      <find>doctor</find>
+      <find>顾客</find>
+      <find>patient</find>
+      <find>customer</find>
+      <find>&quot;0</find>
+      <find>isdigital</find>
+      <find>isdi</find>
+      <find>电话</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>50</replace>
+      <replace>Patient</replace>
+      <replace>医生</replace>
+      <replace>patient</replace>
+      <replace>user_telephone</replace>
+      <replace>doctor</replace>
+      <replace>patient_telephone</replace>
+      <replace>Doctor</replace>
+      <replace>身份证号</replace>
+      <replace>横向</replace>
+      <replace>Medicine</replace>
+      <replace>id</replace>
+      <replace>medicine_manage</replace>
+      <replace>medicine</replace>
+      <replace>Worker</replace>
+      <replace>客户</replace>
+      <replace>worker</replace>
+      <replace>customer</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\ProgramApp\Django可执行项目\医院管理系统\project\project\改造模板</dir>
+      <dir>E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\static</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor/doctor_information.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/change_manager_password.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/cost_record.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/manage_diagnosis_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/urls.py" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/alter_medicine.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/add_new_medicine.html" />
+        <option value="$PROJECT_DIR$/project/hongse_calendar/index.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor/medicine_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor/diagnosis_record.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor/diagnosis_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor/doctor_appoint.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/docotr_manage.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/appoint_manage.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/cost_manage.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/manager/medicine_manage.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/patient/patient_appoint.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/patient/patient_information.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/patient_register.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/doctor_register.html" />
+        <option value="$PROJECT_DIR$/medicine.sql" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/MyApp/templates/patient/appoint_record.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/patient/patient_diagnosis_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/static/css/style4.css" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/patient_diagnosis_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/diagnosis_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/doctor_information.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/MyApp/templates/test.html" />
+        <option value="D:/software/python/Lib/site-packages/django/db/backends/mysql/operations.py" />
+        <option value="$PROJECT_DIR$/MyApp/apps.py" />
+        <option value="$PROJECT_DIR$/MyApp/models.py" />
+        <option value="$PROJECT_DIR$/project/settings.py" />
+        <option value="$PROJECT_DIR$/MyApp/static/css/styles/style.css" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer_register.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/change_worker_password.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/finance_infomation.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/order_record.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker/worker_information.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/appoint_record.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/change_customer_password.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/customer_appoint.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/worker_detail.html" />
+        <option value="$PROJECT_DIR$/MyApp/templates/login.html" />
+        <option value="$PROJECT_DIR$/MyApp/views.py" />
+        <option value="$PROJECT_DIR$/project/urls.py" />
+        <option value="$PROJECT_DIR$/MyApp/templates/worker_register.html" />
+        <option value="$PROJECT_DIR$/MyApp/admin.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py" />
+        <option value="$PROJECT_DIR$/MyApp/templates/customer/customer_information.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="-8" />
+    <option name="width" value="661" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="MyApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ToolWindowDatabase Changes.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\project\font-awesome-4.7.0\css" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\static\css" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\static\js" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\templates\doctor" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProgramApp\Django可执行项目\household\project\MyApp\static\images" />
+      <recent name="E:\ProgramApp\Django可执行项目\household\project\MyApp\templates\worker" />
+      <recent name="E:\ProgramApp\Django可执行项目\household\project\MyApp\templates" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\templates\patient" />
+      <recent name="E:\ProgramApp\Django可执行项目\医院管理系统\project\MyApp\templates\manager" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manage">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\ProgramApp\Django可执行项目\医院管理系统\project\project\test.txt" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="project.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.project" />
+      <item itemvalue="Python.manage" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b2478e1-849b-4788-a637-27b01dcddee9" name="Default Changelist" comment="" />
+      <created>1555507799753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555507799753</updated>
+      <workItem from="1555507801436" duration="5955000" />
+      <workItem from="1555562430251" duration="8213000" />
+      <workItem from="1555651024470" duration="10491000" />
+      <workItem from="1555813193244" duration="865000" />
+      <workItem from="1555933359614" duration="9343000" />
+      <workItem from="1556062196589" duration="1358000" />
+      <workItem from="1556333661907" duration="2819000" />
+      <workItem from="1556362708310" duration="1799000" />
+      <workItem from="1556429374341" duration="1191000" />
+      <workItem from="1557386038713" duration="2641000" />
+      <workItem from="1557411446620" duration="1928000" />
+      <workItem from="1557413887037" duration="1192000" />
+      <workItem from="1557463132348" duration="4679000" />
+      <workItem from="1557658553396" duration="16571000" />
+      <workItem from="1557934510556" duration="1344000" />
+      <workItem from="1558236224713" duration="7000" />
+      <workItem from="1558240606834" duration="2907000" />
+      <workItem from="1558421758902" duration="593000" />
+      <workItem from="1558484774119" duration="591000" />
+      <workItem from="1559105137057" duration="276000" />
+      <workItem from="1559192796357" duration="2149000" />
+      <workItem from="1559357100599" duration="1446000" />
+      <workItem from="1559607170237" duration="15000" />
+      <workItem from="1559994390941" duration="12233000" />
+      <workItem from="1560658852710" duration="599000" />
+      <workItem from="1569072683197" duration="1197000" />
+      <workItem from="1576393385347" duration="1394000" />
+      <workItem from="1584001956825" duration="9378000" />
+      <workItem from="1586763538350" duration="663000" />
+      <workItem from="1586939306591" duration="627000" />
+      <workItem from="1587028943244" duration="127644000" />
+      <workItem from="1587296353113" duration="669000" />
+      <workItem from="1587391691495" duration="271000" />
+      <workItem from="1587392655465" duration="8000" />
+      <workItem from="1587396259259" duration="444000" />
+      <workItem from="1587396863141" duration="41359000" />
+      <workItem from="1587477148928" duration="72000" />
+      <workItem from="1587477229215" duration="3000" />
+      <workItem from="1587478188965" duration="266000" />
+      <workItem from="1587479320896" duration="36616000" />
+      <workItem from="1589868610608" duration="1717000" />
+      <workItem from="1590126299901" duration="714000" />
+      <workItem from="1590192193305" duration="7430000" />
+      <workItem from="1595344374228" duration="3206000" />
+      <workItem from="1595406264838" duration="3092000" />
+      <workItem from="1595606973141" duration="35000" />
+      <workItem from="1596266182470" duration="2206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="330216000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959327" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39490446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32819074" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" weight="0.32959327" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.47135842" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3298639" />
+      <window_info anchor="right" id="Database" order="4" weight="0.22177742" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/manager/appoint_manage.html" />
+    <entry file="das://e254b99a-6b5c-44f6-930e-d2831b7f729d/schema/hospital/table/myapp_doctor" />
+    <entry file="das://e254b99a-6b5c-44f6-930e-d2831b7f729d/schema/hospital/table/myapp_patient" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b77ffd1b-e00a-4877-8cea-09457ec78159/console.sql" />
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/images/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker/diagnosis_record.html" />
+    <entry file="file://$PROJECT_DIR$/household_myapp_order.sql" />
+    <entry file="file://$PROJECT_DIR$/MyApp/static/images/4.jpg" />
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_worker">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_type">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_customer">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b77ffd1b-e00a-4877-8cea-09457ec78159/schema/household/table/myapp_finance">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/python/Lib/site-packages/django/core/handlers/base.py" />
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/test.html" />
+    <entry file="uml://DATABASE/b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_customer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_customer</OriginalElement>
+          <nodes>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_customer</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="123.0" y="85.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_worker">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_worker</OriginalElement>
+          <nodes>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_worker</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_type</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="122.0" y="206.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_order">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_order</OriginalElement>
+          <nodes>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_worker</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_customer</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_order</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_type</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8022328548644339" x="255.0" y="343.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/b77ffd1b-e00a-4877-8cea-09457ec78159.SCHEMA:household">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>b77ffd1b-e00a-4877-8cea-09457ec78159.SCHEMA:household</OriginalElement>
+          <nodes>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.auth_user_groups</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_customer</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_type</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_finance</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.django_migrations</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.auth_user</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.auth_group</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.auth_permission</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_worker</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_order</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.auth_user_user_permissions</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.django_content_type</node>
+            <node x="" y="">b77ffd1b-e00a-4877-8cea-09457ec78159.TABLE:household.myapp_user</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7872855701311806" x="396.0" y="384.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/manage.py" />
+    <entry file="file://D:/software/python/Lib/site-packages/django/db/backends/mysql/operations.py" />
+    <entry file="file://$PROJECT_DIR$/MyApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/css/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="214" column="35" lean-forward="true" selection-start-line="214" selection-start-column="35" selection-end-line="214" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/css/styles/global_color.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/css/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1560" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/css/style4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8658" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/static/css/style1.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker/worker_information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker/order_record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker/change_worker_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="5" column="67" lean-forward="true" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer/change_customer_password.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer/worker_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="137" column="50" lean-forward="true" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer/customer_appoint.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2080">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer/appoint_record.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker/finance_infomation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/backends/mysql/operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="141" column="10" selection-start-line="141" selection-start-column="10" selection-end-line="141" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/worker_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/templates/customer/customer_information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="93" column="55" lean-forward="true" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
